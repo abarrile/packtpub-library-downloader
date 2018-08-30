@@ -332,7 +332,7 @@ def main(argv):
                 book_nodes = books_tree.xpath("//div[@id='product-account-list']/div[contains(@class,'product-line unseen')]")
 
                 print('###########################################################################')
-                print("FOUND {0} BOOKS ON PAGE {1}: STARTING DOWNLOADS".format(len(book_nodes)), .format(page))
+                print("FOUND {0} BOOKS ON PAGE {1}: STARTING DOWNLOADS".format(len(book_nodes), page))
                 print('###########################################################################')
 
                 # loop through thpages
